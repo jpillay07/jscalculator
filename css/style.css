@@ -1,0 +1,74 @@
+.calculatorOuter{
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.lcdScreen{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quantico', sans-serif;
+    background-color: rgb(69, 38, 5);
+    min-height: 80px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.keyRow{
+    display: flex;
+}
+
+.secondKeyRow{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.keypad{
+    display: flex;
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    background-color:rgb(189, 189, 189);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.keyVal{
+    margin: auto;
+}
+
+.equals{
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 10px;
+    flex-grow: 2;
+}
+
+.history{
+    text-align: right;
+    color: rgb(210, 210, 210);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.evaluate{
+    color: rgb(210, 210, 210);
+    font-size: 40px;
+    padding: 5px;
+    flex-grow: 3;
+}
